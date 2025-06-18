@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.h1 {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: bold;
+    padding-top: 10px;
+  
+
+
+}
+
+
+
+span {
+    color: #188EF8;
+}
+
+
+.S_educacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #041C3F;
+  padding: 80px 100px;
+  flex-wrap: wrap;
+  
+}
+
+#text_ED {
+  flex: 1;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.p_educacao {
+  color: white;
+  font-family: "Montserrat" ;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#p-aprenda {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.btn-baixar {
+  background-color: #188EF8;
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-baixar:hover {
+  background-color: #0f6ec2;
+}
+
+#Kaell {
+  flex: 1;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.orion {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8097B8;
+}
+
+#orion_img {
+    width: 30%;
+    height: 40%;
+}
+
+.p_sobre {
+    font-family: "Montserrat";
+    font-size: 45px;
+    flex-wrap: wrap;
+    width: 45%;
+    position: relative;
+    top: 80px;
+    height: 20px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cell {
+    width: 25%;
+    /* Ajuste conforme necessário */
+}
+
+.text {
+    padding-left: 30%;
+    text-justify: auto;
+    padding-right: 10%;
+}
+
+.sobre_T {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+    font-weight: bold ;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Montserrat";
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.item img {
+    width: 60px;
+    /* Ajuste o tamanho dos ícones conforme necessário */
+}
+
+.item p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: "Montserrat";
+    
+}
+
+#como_h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  
+
+  .p_educacao {
+    font-size: 40px;
+    position: static;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+
+  #p-aprenda {
+    font-size: 24px;
+    position: static;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+  }
+
+  #Kaell {
+    width: 50%;
+    height: auto;
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .btn-baixar {
+    width: 55%;
+    height: auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .orion {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .p_sobre {
+    font-size: 35px;
+    width: 50%;
+    top: 0;
+  }
+
+  #orion_img {
+    width: 40%;
+    height: auto;
+  }
+
+  .sobre {
+    flex-direction: row;
+    padding: 40px;
+  }
+
+  .cell {
+    width: 35%;
+  }
+
+  .text {
+    padding-left: 5%;
+    text-align: left;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .item {
+    width: 180px;
+  }
+
+  .item img {
+    width: 50px;
+  }
+
+  .item p {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .S_educacao {
+    flex-direction: row;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;  
+  }
+
+  .p_educacao {
+    font-size: 30px;
+    position: static;
+    padding: 20px 0;
+  }
+
+  #p-aprenda {
+    font-size: 18px;
+    position: static;
+    padding: 10px 20px;
+  }
+
+  #Kaell {
+    width: 40%;
+    position: static;
+    margin-top: 20px;
+  }
+
+  .btn-baixar {
+    position: static;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+  
+  }
+
+  .orion {
+    flex-direction: row;
+    text-align: center;
+    padding: 40px;
+    
+  }
+
+  .p_sobre {
+    font-size: 28px;
+    width: 100%;
+    top: 0;
+  }
+
+  #orion_img {
+    width: 30%;
+    height: 40%;
+    margin-top: 20px;
+  }
+
+  .sobre {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .cell {
+    width: 35%;
+  }
+
+  .text {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .S_educacao {
+    flex-direction: row;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .p_educacao {
+    font-size: 20px;
+    position: static;
+    padding: 20px 0;
+  }
+
+  #p-aprenda {
+    font-size: 18px;
+    position: static;
+    padding: 10px 20px;
+  }
+
+  #Kaell {
+    position: static;
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .btn-baixar {
+    position: static;
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .orion {
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .p_sobre {
+    font-size: 28px;
+    width: 100%;
+    top: 0;
+  }
+
+  #orion_img {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .sobre {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .cell {
+    width: 40%;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (min-width: 1441px) and (max-width: 1621px) {
+  .p_educacao {
+    font-size: 45px;
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  #p-aprenda {
+    font-size: 26px;
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  #Kaell {
+    width: 35%;
+    height: auto;
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .btn-baixar {
+    width: 40%;
+    height: auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .text {
+    padding-left: 10%;
+  }
+}
+#text_ED{
+  display: flex;
+  flex-direction: column;
+padding-left: 25px;
+}
